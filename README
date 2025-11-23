@@ -1,1 +1,33 @@
+# Codex Reels Client
 
+React Native + Expo scaffold for the ReelsDrama experience. This repository tracks two primary layers:
+
+- **Consumer app**: authentication, home rails, vertical episode playback
+- **Vertical Player Lab**: engineering tool for testing streams and overlays
+
+## Structure
+```
+src/
+  features/
+    auth/
+    home/
+    episodePlayer/
+    playerLab/
+    settings/
+  shared/
+    components/
+    constants/
+    hooks/
+    navigation/
+    types/
+    utils/
+```
+
+## Quick start
+1. Install dependencies: `npm install`
+2. Start dev server: `npm run start`
+3. Run in Expo Go or platform emulator as needed.
+
+## Notes
+- Auth, playback, and subscription flows are mocked; wire to backend and billing SDKs before production.
+- Lab screen uses placeholder debug state; connect to real player events in future iterations.

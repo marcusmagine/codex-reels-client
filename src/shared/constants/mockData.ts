@@ -31,6 +31,21 @@ export const demoCategories: Category[] = [
             durationSeconds: 860,
             streamUrl: 'https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8',
             isLocked: true
+          },
+          {
+            id: 'ep-3',
+            title: 'Crossed Lines',
+            description: 'The investigation pushes into the underground scene.',
+            durationSeconds: 910,
+            streamUrl: 'https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8'
+          },
+          {
+            id: 'ep-4',
+            title: 'Break in the Case',
+            description: 'A reveal changes what everyone thought they knew.',
+            durationSeconds: 940,
+            streamUrl: 'https://storage.googleapis.com/shaka-demo-assets/angel-one-hls/hls.m3u8',
+            isLocked: true
           }
         ]
       }
